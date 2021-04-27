@@ -1,0 +1,14 @@
+{
+    "name": "school/usrps",
+    "type": "project",
+    "require": {
+        "doctrine/dbal": "^3.1"
+    },
+    "authors": [
+        {
+            "name": "David Veigel",
+            "email": "7270@htl.rennweg.at"
+        }
+    ],
+    "minimum-stability": "stable"
+}
