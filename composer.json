@@ -2,7 +2,8 @@
     "name": "school/usrps",
     "type": "project",
     "require": {
-        "doctrine/dbal": "^3.1"
+        "doctrine/dbal": "^3.1",
+        "twig/twig": "^3.3"
     },
     "authors": [
         {

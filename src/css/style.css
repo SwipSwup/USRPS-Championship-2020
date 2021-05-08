@@ -1,0 +1,17 @@
+#card {
+    margin: 25px;
+    background-color: #14253A;
+}
+
+#card,h5 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#trashcan {
+    color: #fff;
+}
+
+.vertical-center {
+
+}
