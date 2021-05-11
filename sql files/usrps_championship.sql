@@ -38,8 +38,8 @@ create table round
 (
     pk_roundNr int,
     fk_gameNr  int,
-    signP1     varchar(10),
-    signP2     varchar(10),
+    signP1     int,
+    signP2     int,
     date       date,
     time       time,
     PRIMARY KEY (fk_gameNr, pk_roundNr)
