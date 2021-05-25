@@ -6,8 +6,6 @@ alter table game
     drop foreign key c_game2;
 alter table game
     drop foreign key c_game3;
-alter table round
-    drop foreign key c_round1;
 
 -- drop if exists
 
@@ -28,21 +26,14 @@ create table championship
 
 create table game
 (
-    pk_gameNr  int primary key,
-    fk_champNr int,
+    pk_gameNr int,
+    fk_champNr  int,
     fk_player1 varchar(40),
-    fk_player2 varchar(40)
-);
-
-create table round
-(
-    pk_roundNr int,
-    fk_gameNr  int,
+    fk_player2 varchar(40),
     signP1     int,
     signP2     int,
-    date       date,
     time       time,
-    PRIMARY KEY (fk_gameNr, pk_roundNr)
+    PRIMARY KEY (pk_gameNr, fk_champNr)
 );
 
 create table player
@@ -60,5 +51,3 @@ alter table game
     add constraint c_game2 foreign key (fk_player1) references player (pk_gamertag);
 alter table game
     add constraint c_game3 foreign key (fk_player2) references player (pk_gamertag);
-alter table round
-    add constraint c_round1 foreign key (fk_gameNr) references game (pk_gameNr);
