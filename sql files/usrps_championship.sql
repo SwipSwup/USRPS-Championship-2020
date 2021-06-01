@@ -12,7 +12,6 @@ alter table game
 drop table if exists championship;
 drop table if exists game;
 drop table if exists player;
-drop table if exists round;
 
 
 -- creating tables

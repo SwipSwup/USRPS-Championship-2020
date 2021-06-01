@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8b373bf-ce58-46a7-ae92-31e26d50c6b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/php/GameRound.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/USRPS Championship 2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/USRPS Championship 2020.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+    <list default="true" id="9a2ab3b4-9fbb-4a09-98d8-c8912077fc8a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql files/usrps_championship.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql files/usrps_championship.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/php/GameRound.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/php/GameRound.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/template.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,16 +32,14 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1sFERVLA6KSff3qTxnkQO1w7Cev" />
+  <component name="ProjectId" id="1rks8lYsWyGpJf9iSAGYo8lAhqK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,52 +47,63 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\USRPS-Championship-2020\src\css" />
-      <recent name="C:\xampp\htdocs\USRPS-Championship-2020\src\php" />
-    </key>
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a8b373bf-ce58-46a7-ae92-31e26d50c6b3" name="Default Changelist" comment="" />
-      <created>1620459930631</created>
+      <changelist id="9a2ab3b4-9fbb-4a09-98d8-c8912077fc8a" name="Default Changelist" comment="" />
+      <created>1619531264985</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1620459930631</updated>
-      <workItem from="1620459931997" duration="288000" />
-      <workItem from="1620460230359" duration="147000" />
-      <workItem from="1620460386334" duration="189000" />
-      <workItem from="1620460587409" duration="6564000" />
+      <updated>1619531264985</updated>
+      <workItem from="1619531266104" duration="30000" />
+      <workItem from="1620301458399" duration="70000" />
+      <workItem from="1620735558899" duration="608000" />
+      <workItem from="1620736185607" duration="501000" />
+      <workItem from="1620738478837" duration="607000" />
+      <workItem from="1620739268003" duration="90000" />
+      <workItem from="1620739372378" duration="845000" />
+      <workItem from="1621927209573" duration="11000" />
+      <workItem from="1622550414459" duration="1975000" />
     </task>
+    <task id="LOCAL-00001" summary="hi">
+      <created>1619531290334</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619531290334</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hi" />
+    <option name="LAST_COMMIT_MESSAGE" value="hi" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="999" y="101" key="#PHP" timestamp="1620465965262">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="194" y="213" key="#SQL_Dialects" timestamp="1620740466583">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="999" y="101" key="#PHP/0.0.2560.1080/364.-1080.1920.1080/2560.0.1080.1920/360.1080.1920.1080@0.0.2560.1080" timestamp="1620465965262" />
-    <state x="1126" y="344" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1620460998926">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="194" y="213" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1620740466583" />
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620740501237">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="1126" y="344" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1080/364.-1080.1920.1080/2560.0.1080.1920/360.1080.1920.1080@0.0.2560.1080" timestamp="1620460998926" />
-    <state x="1063" y="266" key="NewPhpClassDialog" timestamp="1620460929765">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1620740501237" />
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1619531289813">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="1063" y="266" key="NewPhpClassDialog/0.0.2560.1080/364.-1080.1920.1080/2560.0.1080.1920/360.1080.1920.1080@0.0.2560.1080" timestamp="1620460929765" />
-    <state x="1114" y="464" key="NewPhpFileDialog" timestamp="1620459981252">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1619531289813" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1619531293212">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="1114" y="464" key="NewPhpFileDialog/0.0.2560.1080/364.-1080.1920.1080/2560.0.1080.1920/360.1080.1920.1080@0.0.2560.1080" timestamp="1620459981252" />
-    <state x="781" y="184" key="SettingsEditor" timestamp="1620459946055">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1619531293212" />
+    <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622550597492">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="781" y="184" key="SettingsEditor/0.0.2560.1080/364.-1080.1920.1080/2560.0.1080.1920/360.1080.1920.1080@0.0.2560.1080" timestamp="1620459946055" />
+    <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1622550597492" />
   </component>
 </project>
