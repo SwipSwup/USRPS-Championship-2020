@@ -42,4 +42,10 @@ class GameRound
     public function getGameID() : int {
         return $this->gameID;
     }
+
+    public function getChampNr() : int {
+        return $this->champNr;
+    }
+
+
 }
