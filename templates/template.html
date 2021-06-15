@@ -18,7 +18,7 @@
                     location.reload();
                 }
             };
-            $ajax.open('GET', "http://localhost/USRPS-Championship-2020/src/php/deleteRound.php?id=" + gameID, true);
+            $ajax.open('GET', "http://localhost:81/USRPS-Championship-2020/src/php/deleteRound.php?id=" + gameID, true);
             $ajax.send(null);
         }
     </script>
@@ -89,7 +89,7 @@
             {% endfor %}
         </ul>
         <div class="card-body">
-            <form id="form" class="row" action="http://localhost/USRPS-Championship-2020/src/php/addRound.php" method="get">
+            <form id="form" class="row" action="http://localhost:81/USRPS-Championship-2020/src/php/addRound.php" method="get">
                 <div class="input-group mb-3 col" >
                     <input type="text" class="form-control" name="player1" placeholder="Player one" aria-label="PlayerOne" required>
                     <span class="input-group-text">picked</span>

@@ -80,12 +80,12 @@ $addRound
     ->setParameter(3, $playerTwo)
     ->setParameter(4, $playerOneSign)
     ->setParameter(5, $playerTwoSign)
-    ->setParameter(6, '\'11:11:20\'');
+    ->setParameter(6, date("H:i:s"));
 
 
 $addRound->executeQuery();
 
-header("Location: http://localhost/USRPS-Championship-2020/index.php", true, 301);
+header("Location: http://localhost:81/USRPS-Championship-2020/index.php", true, 301);
 exit();
 
 
