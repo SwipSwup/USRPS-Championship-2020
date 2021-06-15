@@ -35,10 +35,8 @@ $selectGames
     ->from('game')
 ;
 
-
-
 foreach($conn->query($selectChampionships)->fetchAllAssociative() as $item) {
-$tournament = new Tournament($item["name"], $item["date"]);
+$tournament = new Tournament($item["name"], $item["date"], $item["pk_champNr"]);
     foreach($conn->query($selectGames->where('fk_champNr = ' . $item["pk_champNr"]))->fetchAllAssociative() as $gameItem){
         $game = new GameRound($gameItem["pk_gameNr"], $item["date"], $gameItem["time"]);
         $game->addPlayerOne($gameItem["fk_player1"], $gameItem["signP1"]);
@@ -48,9 +46,6 @@ $tournament = new Tournament($item["name"], $item["date"]);
 array_push($tournaments, $tournament);
 }
 
-function deleteRound (){
-
-}
 
 //while (($row = $conn->query($selectChampionships)->fetchAssociative()) !== false) {
   //  echo $row['name'];

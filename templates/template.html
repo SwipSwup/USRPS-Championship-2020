@@ -15,10 +15,10 @@
             $ajax = new XMLHttpRequest();
             $ajax.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
-                    print("hello");
+                    location.reload();
                 }
             };
-            $ajax.open('GET', $url, true);
+            $ajax.open('GET', "http://localhost/USRPS-Championship-2020/src/php/deleteRound.php?id=" + gameID, true);
             $ajax.send(null);
         }
     </script>
@@ -38,7 +38,6 @@
     <div class="card-body" id="content">
         <div class="row">
             <h3 class="card-title col">{{tournament.getTournamentName()|e}}</h3>
-            <button class="btn col-1" id="trashcan"><i class="fa fa-trash"></i></button>
         </div>
         <div class="card-text">
             {{tournament.getTournamentDate()|e}}
@@ -90,25 +89,26 @@
             {% endfor %}
         </ul>
         <div class="card-body">
-            <form class="row">
-                <div class="input-group mb-3 col">
-                    <input type="text" class="form-control" placeholder="Player one" aria-label="PlayerOne" required>
+            <form id="form" class="row" action="http://localhost/USRPS-Championship-2020/src/php/addRound.php" method="get">
+                <div class="input-group mb-3 col" >
+                    <input type="text" class="form-control" name="player1" placeholder="Player one" aria-label="PlayerOne" required>
                     <span class="input-group-text">picked</span>
-                    <select class="form-select" aria-label="Default select example" required>
+                    <select name="sign1" class="form-select" aria-label="Default select example" required>
                         <option selected value="0">Rock</option>
                         <option value="1">Paper</option>
                         <option value="2">Scissors</option>
                     </select>
                 </div>
                 <div class="input-group mb-3 col">
-                    <input type="text" class="form-control" placeholder="Player two" aria-label="PlayerTwo" required>
+                    <input name="player2" type="text" class="form-control" placeholder="Player two" aria-label="PlayerTwo" required>
                     <span class="input-group-text">picked</span>
-                    <select class="form-select" aria-label="Default select example" required>
+                    <select name="sign2" class="form-select" aria-label="Default select example" required>
                         <option selected value="0">Rock</option>
                         <option value="1">Paper</option>
                         <option value="2">Scissors</option>
                     </select>
                 </div>
+                <input type="hidden" value="{{tournament.getChampNr()|e}}" name="championship">
                 <button type="submit" class="btn btn-light">Add Game</button>
             </form>
         </div>

@@ -5,15 +5,21 @@ class Tournament
     private string $name;
     private string $date;
     private array $gameRounds;
+    private int $champNr;
 
-    public function __construct(string $name, string $date, $gameRounds = []) {
+    public function __construct(string $name, string $date, int $champNr, $gameRounds = []) {
         $this->name = $name;
         $this->date = $date;
         $this->gameRounds = $gameRounds;
+        $this->champNr = $champNr;
     }
 
     public function addGameRound(GameRound $gameRound) {
         array_push($this->gameRounds, $gameRound);
+    }
+
+    public function getChampNr() : int {
+        return $this->champNr;
     }
 
     public function getGameRounds() : array {
